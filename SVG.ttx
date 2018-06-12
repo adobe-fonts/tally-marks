@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="3.27">
+
+  <SVG>
+
+    <svgDoc endGlyphID="4" startGlyphID="4">
+      <![CDATA[<svg id="glyph4" xmlns="http://www.w3.org/2000/svg"><path d="M913 -696V-760H94V-696Z" fill="#ff0000"/></svg>]]>
+    </svgDoc>
+    <svgDoc endGlyphID="5" startGlyphID="5">
+      <![CDATA[<svg id="glyph5" xmlns="http://www.w3.org/2000/svg"><path d="M559 -34V-696H913V-760H94V-696H490V-34Z" fill="#ff0000"/></svg>]]>
+    </svgDoc>
+    <svgDoc endGlyphID="6" startGlyphID="6">
+      <![CDATA[<svg id="glyph6" xmlns="http://www.w3.org/2000/svg"><path d="M559 -34V-356H876V-421H559V-696H913V-760H94V-696H490V-34Z" fill="#ff0000"/></svg>]]>
+    </svgDoc>
+    <svgDoc endGlyphID="7" startGlyphID="7">
+      <![CDATA[<svg id="glyph7" xmlns="http://www.w3.org/2000/svg"><path d="M262 -34V-508H194V-34ZM559 -34V-356H876V-421H559V-696H913V-760H94V-696H490V-34Z" fill="#ff0000"/></svg>]]>
+    </svgDoc>
+    <svgDoc endGlyphID="8" startGlyphID="8">
+      <![CDATA[<svg id="glyph8" xmlns="http://www.w3.org/2000/svg"><path d="M559 -34V-356H876V-421H559V-696H913V-760H94V-696H490V-34H262V-508H194V-34H56V31H946V-34Z" fill="#ff0000"/></svg>]]>
+    </svgDoc>
+    <svgDoc endGlyphID="9" startGlyphID="9">
+      <![CDATA[<svg id="glyph9" xmlns="http://www.w3.org/2000/svg"><path d="M175 0H225V-750H175Z" fill="#ff0000"/></svg>]]>
+    </svgDoc>
+    <svgDoc endGlyphID="10" startGlyphID="10">
+      <![CDATA[<svg id="glyph10" xmlns="http://www.w3.org/2000/svg"><path d="M175 0H225V-750H175ZM375 0H425V-750H375Z" fill="#ff0000"/></svg>]]>
+    </svgDoc>
+    <svgDoc endGlyphID="11" startGlyphID="11">
+      <![CDATA[<svg id="glyph11" xmlns="http://www.w3.org/2000/svg"><path d="M175 0H225V-750H175ZM375 0H425V-750H375ZM575 0H625V-750H575Z" fill="#ff0000"/></svg>]]>
+    </svgDoc>
+    <svgDoc endGlyphID="12" startGlyphID="12">
+      <![CDATA[<svg id="glyph12" xmlns="http://www.w3.org/2000/svg"><path d="M175 0H225V-750H175ZM775 0H825V-750H775ZM375 0H425V-750H375ZM575 0H625V-750H575Z" fill="#ff0000"/></svg>]]>
+    </svgDoc>
+    <svgDoc endGlyphID="13" startGlyphID="13">
+      <![CDATA[<svg id="glyph13" xmlns="http://www.w3.org/2000/svg"><path d="M934 -596L909 -640L825 -591V-750H775V-563L625 -476V-750H575V-447L425 -360V-750H375V-331L225 -245V-750H175V-216L65 -152L90 -109L175 -158V0H225V-187L375 -273V0H425V-302L575 -389V0H625V-418L775 -504V0H825V-533Z" fill="#ff0000"/></svg>]]>
+    </svgDoc>
+  </SVG>
+
+</ttFont>

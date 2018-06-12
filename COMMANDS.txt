@@ -1,0 +1,18 @@
+# The following command line builds the OpenType/CFF font without an
+# SVG table:
+
+makeotf -f cidfont.ps -omitMacNames -ff features -fi cidfontinfo -mf FontMenuNameDB -o TallyMarks-Regular_NoSVG.otf -r -cs 1 -ch UniTallyMarks-UTF32-H
+
+# The first method for adding the SVG table is via the following
+# command lines, the second of which deals with one-per-glyph SVG
+# files in the "SVGs" directory:
+
+cp TallyMarks-Regular_NoSVG.otf TallyMarks-Regular.otf
+python addSVGtable.py -s SVGs TallyMarks-Regular.otf
+
+# The second method for adding the SVG table is via the following
+# command line that deals with an XML form of the entire SVG table:
+
+ttx -m TallyMarks-Regular_NoSVG.otf -o TallyMarks-Regular.otf SVG.ttx
+
+# EOF

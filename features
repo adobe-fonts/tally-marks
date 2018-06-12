@@ -1,0 +1,101 @@
+languagesystem DFLT dflt;
+languagesystem hani dflt;
+languagesystem latn dflt;
+
+table head {
+  FontRevision 2.000;
+} head;
+
+table hhea {
+  Ascender 880;
+  Descender -120;
+  LineGap 0;
+} hhea;
+
+table name {
+  nameid 0 "Copyright \00A9 2016-2018 Adobe Systems Incorporated (http://www.adobe.com/)";
+  nameid 8 "Adobe Systems Incorporated";
+  nameid 9 "Dr. Ken Lunde";
+  nameid 11 "http://www.adobe.com/type/";
+  nameid 13 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \0022AS IS\0022 BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+  nameid 14 "http://scripts.sil.org/OFL";
+  nameid 19 "\6B63\3000\D834\DF72\D834\DF73\D834\DF74\D834\DF75\D834\DF76 \D834\DF77\D834\DF78 \D834\DF77\D834\DF77 \D834\DF77\D834\DF77\D834\DF77 \D834\DF77\D834\DF77\D834\DF77\D834\DF77 \D834\DF77\D834\DF77\D834\DF77\D834\DF77\D834\DF77";
+} name;
+
+table vhea {
+  VertTypoLineGap 0;
+} vhea;
+
+table BASE {
+  HorizAxis.BaseTagList                 icfb  icft  ideo  romn;
+  HorizAxis.BaseScriptList  DFLT  ideo    -74  834    -120  0,
+                            hani  ideo    -74  834    -120  0,
+                            latn  romn    -74  834    -120  0;
+
+  VertAxis.BaseTagList                  icfb  icft  ideo  romn;
+  VertAxis.BaseScriptList   DFLT  ideo  46    954   0     120,
+                            hani  ideo  46    954   0     120,
+                            latn  romn  46    954   0     120;
+} BASE;
+
+table OS/2 {
+  TypoAscender 880;
+  TypoDescender -120;
+  TypoLineGap 0;
+  XHeight 0;
+  CapHeight 0;
+  WeightClass 400;
+  WidthClass 5;
+  Panose 2 11 5 0 0 0 0 0 0 0;
+  FSType 0;
+  Vendor "ADBO";
+  winAscent 880;
+  winDescent 120;
+} OS/2;
+
+feature ccmp {
+  substitute \9 \9 \9 \9 \9 by \13;
+  substitute \9 \9 \9 \9 by \12;
+  substitute \9 \9 \9 by \11;
+  substitute \9 \9 by \10;
+  substitute \19 \19 \19 \19 \19 by \23;
+  substitute \19 \19 \19 \19 by \22;
+  substitute \19 \19 \19 by \21;
+  substitute \19 \19 by \20;
+} ccmp;
+
+feature ss01 {
+  featureNames {
+    name 3 1 0x0409 "Black and White";
+    name 3 1 0x0411 "\767D\9ED2";
+  };
+
+  substitute \4 by \14;
+  substitute \5 by \15;
+  substitute \6 by \16;
+  substitute \7 by \17;
+  substitute \8 by \18;
+  substitute \9 by \19;
+  substitute \10 by \20;
+  substitute \11 by \21;
+  substitute \12 by \22;
+  substitute \13 by \23;
+} ss01;
+
+feature ss02 {
+  featureNames {
+    name 3 1 0x0409 "Color Emoji";
+    name 3 1 0x0411 "\30AB\30E9\30FC\7D75\6587\5B57";
+  };
+
+  substitute \14 by \4;
+  substitute \15 by \5;
+  substitute \16 by \6;
+  substitute \17 by \7;
+  substitute \18 by \8;
+  substitute \19 by \9;
+  substitute \20 by \10;
+  substitute \21 by \11;
+  substitute \22 by \12;
+  substitute \23 by \13;
+} ss02;
