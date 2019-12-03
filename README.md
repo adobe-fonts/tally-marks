@@ -30,4 +30,5 @@ In this repository, all necessary files are in place for building the OpenType-S
 
 ## Getting Involved
 
-Send suggestions for changes to the Tally Marks project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub]%20Tally%20Marks), for consideration.
+For any suggestions for changes, please [create a new issue](https://github.com/adobe-fonts/tally-marks/issues) for consideration.
+
